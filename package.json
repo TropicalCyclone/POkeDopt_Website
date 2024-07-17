@@ -1,0 +1,16 @@
+{
+  "name": "pokedopt_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:unit": "vitest run",
+    "test:integration": "vitest run --config vitest.integration.config.js"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.3"
+  },
+  "author": "",
+  "license": ""
+}

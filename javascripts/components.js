@@ -22,7 +22,7 @@ $(document).ready(function() {
             newEditPfpData = '';
         }
         
-         //FOR FUTURE ADMIN
+        //FOR FUTURE ADMIN
         // function setOriginalPokeImg() {
         //     pokeImg.attr('src', origPokeImg);
         //     newPokeImgData = '';
