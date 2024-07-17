@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="D:\xampp\htdocs\PokeDopt_Website\phpunit.xml" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.004147">
+    <testsuite name="Unit Tests" tests="5" assertions="5" errors="0" failures="0" skipped="0" time="0.004147">
+      <testsuite name="CalculatorTest" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\CalculatorTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.003675">
+        <testcase name="testAdd" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\CalculatorTest.php" line="5" class="CalculatorTest" classname="CalculatorTest" assertions="1" time="0.003562"/>
+        <testcase name="testSubtract" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\CalculatorTest.php" line="14" class="CalculatorTest" classname="CalculatorTest" assertions="1" time="0.000113"/>
+      </testsuite>
+      <testsuite name="LoginTest" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\LoginTest.php" tests="3" assertions="3" errors="0" failures="0" skipped="0" time="0.000471">
+        <testcase name="testSuccessfulLogin" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\LoginTest.php" line="7" class="LoginTest" classname="LoginTest" assertions="1" time="0.000278"/>
+        <testcase name="testFailedLoginWithWrongPassword" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\LoginTest.php" line="15" class="LoginTest" classname="LoginTest" assertions="1" time="0.000098"/>
+        <testcase name="testFailedLoginWithWrongUsername" file="D:\xampp\htdocs\PokeDopt_Website\tests\Unit\LoginTest.php" line="23" class="LoginTest" classname="LoginTest" assertions="1" time="0.000095"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
