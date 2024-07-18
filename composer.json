@@ -1,7 +1,7 @@
 {
     "name": "ashieloche/pokedopt_website",
     "description": "A website where people can adopt pokemon,",
-    "require-dev": {
+    "require": {
         "php": "^8.2.12",
         "phpunit/phpunit": "^11.2"
     },

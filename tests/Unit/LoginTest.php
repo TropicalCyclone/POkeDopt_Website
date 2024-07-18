@@ -9,7 +9,6 @@
             $login = new App\Login;
             $result = $login->authenticate('admin', 'password');
             $this->assertEquals('Login successful', $result);
-            echo 'Login successful.';
 
         }
 
@@ -17,8 +16,7 @@
 
             $login = new App\Login;;
             $result = $login->authenticate('admin', 'wrongPassword');
-            $this->assertEquals('Login successful', $result);
-            echo 'Login failed.';
+            $this->assertEquals('Login failed', $result);
 
         }
 
@@ -27,7 +25,6 @@
             $login = new App\Login;
             $result = $login->authenticate('wrongUser', 'password');
             $this->assertEquals('Login failed', $result);
-            echo 'Login failed.';
 
         }
 
