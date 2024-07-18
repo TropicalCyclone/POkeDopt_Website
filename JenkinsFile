@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/AshieLoche/PokeDopt_Website.git'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                sh 'composer install'
+            }
+        }
+        stage('Run Tests') {
+            steps {
+                sh './vendor/bin/phpunit --configuration phpunit.xml --log-junit test-results/phpunit.xml'
+            }
+        }
+    }
+    post {
+        always {
+            junit 'test-results/phpunit.xml'
+        }
+    }
+}
