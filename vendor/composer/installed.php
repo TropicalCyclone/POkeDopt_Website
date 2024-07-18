@@ -3,7 +3,7 @@
         'name' => 'ashieloche/pokedopt_website',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'e2676607be595fb186b23aeb4e7a880f1278e17f',
+        'reference' => 'b507cfdd669767793751f0af28e1b3a6fcd1ba04',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'ashieloche/pokedopt_website' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'e2676607be595fb186b23aeb4e7a880f1278e17f',
+            'reference' => 'b507cfdd669767793751f0af28e1b3a6fcd1ba04',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
