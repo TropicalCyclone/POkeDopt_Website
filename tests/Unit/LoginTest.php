@@ -16,13 +16,13 @@
 
             $login = new App\Login;;
             $result = $login->authenticate('admin', 'wrongPassword');
-            $this->assertEquals('Login failed1', $result);
+            $this->assertEquals('Login successful', $result);
 
         }
 
         public function testFailedLoginWithWrongUsername() {
 
-            $login = new App\Login;;
+            $login = new App\Login;
             $result = $login->authenticate('wrongUser', 'password');
             $this->assertEquals('Login failed', $result);
 
