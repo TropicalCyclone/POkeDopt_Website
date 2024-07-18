@@ -2,15 +2,16 @@
   "name": "pokedopt_website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
-    "test": "vitest",
-    "test:unit": "vitest run",
-    "test:integration": "vitest run --config vitest.integration.config.js"
+    "test": "phpunit"
   },
+
   "devDependencies": {
-    "vitest": "^2.0.3"
+    "php": "^8.2.12",
+    "phpunit/phpunit": "^11.2"
   },
+
   "author": "",
   "license": ""
 }
