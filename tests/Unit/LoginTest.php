@@ -16,7 +16,7 @@
 
             $login = new App\Login;;
             $result = $login->authenticate('admin', 'wrongPassword');
-            $this->assertEquals('Login failed', $result);
+            $this->assertEquals('Login failed1', $result);
 
         }
 
